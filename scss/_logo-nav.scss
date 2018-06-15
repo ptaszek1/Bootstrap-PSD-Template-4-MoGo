@@ -1,0 +1,52 @@
+.background-logo {
+  background-image: url("../img/Layer15.png");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  .container {
+    height: 100%;
+  }
+  .company-name {
+    padding: 10px;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .menu a{
+    color: #fff !important;
+    &:hover {
+      color: #fce38a !important;
+      border-bottom: 1px solid #fce38a;;
+    }
+  }
+  .main-logo {
+    padding-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    h2 {
+      font-size: 72px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 150px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fff;
+    }
+    .border-logo {
+      background-color: #fff;
+      margin: 10px;
+      width: 60px;
+      height: 3px;
+    }
+    button {
+      background: none;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+  }
+}
