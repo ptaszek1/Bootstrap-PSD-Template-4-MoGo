@@ -8,17 +8,6 @@
     font-weight: 700;
     padding: 10px;
   }
-  .border-bottom-about {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px 30px 30px 30px;
-    .border-about {
-      background-color: #f38181;
-      width: 60px;
-      height: 2px;
-    }
-  }
   p {
     color: #999999;
     font-size: 15px;
@@ -33,5 +22,17 @@
   img {
     width: 100%;
     padding: 10px;
+  }
+}
+
+.border-bottom-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px 30px 30px;
+  .border-about {
+    background-color: #f38181;
+    width: 60px;
+    height: 2px;
   }
 }
