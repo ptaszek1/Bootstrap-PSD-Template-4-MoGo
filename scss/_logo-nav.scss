@@ -21,18 +21,21 @@
     }
   }
   .main-logo {
-    padding-top: 20%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    align-content: center;
+    position: relative;
     h2 {
-      font-size: 72px;
+      font-size: 5vw;
       color: #fff;
+      font-family: 'Kaushan Script', cursive;
     }
     h1 {
-      font-size: 150px;
+      font-size:8vw;
       text-transform: uppercase;
       font-weight: 700;
       color: #fff;
@@ -47,6 +50,23 @@
       background: none;
       border: 2px solid #fff;
       color: #fff;
+    }
+  }
+}
+.logo-info {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  .b-info {
+    p {
+      span {
+        font-weight: 700;
+      }
+      border-top: 2px solid #fff;
+      padding: 20px;
+      margin-bottom: 100px;
     }
   }
 }
