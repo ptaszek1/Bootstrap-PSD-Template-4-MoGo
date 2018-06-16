@@ -1,0 +1,20 @@
+.numbers {
+  background-color: #95e1d3;
+  padding: 40px;
+  span {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .numbers-text {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .numbers-text:nth-of-type(5){
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
