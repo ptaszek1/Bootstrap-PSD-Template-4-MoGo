@@ -202,8 +202,8 @@
                             <div class="border-about"></div>
                         </div>
                         <div class="tablet-phone">
-                            <img src="img/tabletimg.png">
-                            <img src="img/phoneimg.png">
+                            <img src="img/tabletimg.png" class="tablet">
+                            <img src="img/phoneimg.png" class="phone">
                         </div>
                     </div>
                 </div>
@@ -216,8 +216,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="co-workers text-center">
-                    <h3>For all devices?</h3>
-                    <h2>UNIQUE DESIGN</h2>
+                    <h3>Service</h3>
+                    <h2>WHAT WE DO</h2>
                     <div class="border-bottom-about">
                         <div class="border-about"></div>
                     </div>
@@ -227,35 +227,46 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <img src="img/services.png">
+        <div class="row service-border">
+            <div class="col-6 service-picture">
+                <img src="img/services.png" class="img-fluid" alt="Responsive image">
             </div>
             <div class="col-6">
-                <div class="services-photography">
-                    <i class="far fa-image"></i>
-                    <h4>Photography</h4>
+                <div class="services">
+                    <div class="service-text">
+                        <h4><i class="far fa-image"></i>&nbsp;Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut debitis eos ipsam laborum nulla officiis quae tempore ut! Autem consequatur enim magnam maiores numquam quibusdam quos vel? Beatae, tenetur?</p>
+                    </div>
                 </div>
-                <div class="services-creativity">
-                    <h4>Creativity</h4>
+                <div class="services">
+                    <div class="service-text">
+                        <h4><i class="fas fa-volume-up"></i>&nbsp;Creativity</h4>
+                        <p class="d-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut debitis eos ipsam laborum nulla officiis quae tempore ut! Autem consequatur enim magnam maiores numquam quibusdam quos vel? Beatae, tenetur?</p>
+                    </div>
                 </div>
-                <div class="services-web">
-                    <i class="far fa-circle"></i>
-                    <h4>Web Design</h4>
+                <div class="services">
+                    <div class="service-text">
+                        <h4><i class="far fa-object-group"></i>&nbsp;Web Design</h4>
+                        <p class="d-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut debitis eos ipsam laborum nulla officiis quae tempore ut! Autem consequatur enim magnam maiores numquam quibusdam quos vel? Beatae, tenetur?</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<div class="section-comments">
+<section class="comments">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-1">
-                    <i class="fas fa-chevron-left"></i>
+                <div class="col-1 d-flex">
+                    <i class="fas fa-chevron-left d-flex align-items-center"></i>
                 </div>
-                <div class="col-10">
-                    <i class="fas fa-comments"></i>
+                <div class="col-2">
+                    <div class="comments-icon text-center">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                </div>
+                <div class="col-8">
                     <div class="comments-text">
                         <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid animi aspernatur
                             commodi dignissimos distinctio fuga fugit maxime nemo numquam, pariatur placeat praesentium
@@ -266,13 +277,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1">
-                    <i class="fas fa-chevron-right"></i>
+                <div class="col-1 d-flex">
+                    <i class="fas fa-chevron-right d-flex align-items-center"></i>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <section class="team">
     <div class="container">
         <div class="row">
@@ -515,12 +526,52 @@
                     <h1>MoGo</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem dolorum est in, labore magnam, natus nesciunt numquam quam repellendus repudiandae ullam ut voluptates! Harum itaque optio pariatur recusandae voluptatibus?</p>
                     <p><span>15k</span>Followers</p>
+                    <div class="follow-us">
+                        <p>Follow us:</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                            <li><i class="fab fa-pinterest-p"></i></li>
+                            <li><i class="fab fa-google-plus-g"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-dribbble"></i></li>
+                            <li><i class="fab fa-tumblr"></i></li>
+                        </ul>
+                    </div>
+                    <div class="contact-input">
+                        <input type="text">
+                        <button>Subscribe</button>
+                    </div>
                 </div>
                 <div class="col-4">
-
+                    <h3>Blogs</h3>
+                    <div class="blog-div">
+                        <img src="img/blog1.png">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi incidunt modi nisi, porro quas tempora!</p>
+                            <span>Jan 9, 2016</span>
+                        </div>
+                    </div>
+                    <div class="blog-div">
+                        <img src="img/blog1.png">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi incidunt modi nisi, porro quas tempora!</p>
+                            <span>Jan 9, 2016</span>
+                        </div>
+                    </div>
+                    <div class="blog-div">
+                        <img src="img/blog1.png">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi incidunt modi nisi, porro quas tempora!</p>
+                            <span>Jan 9, 2016</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-4">
-
+                    <h3>INSTAGRAM</h3>
+                    <img src="img/instagram.png">
+                    <p>view more photos</p>
                 </div>
             </div>
         </div>

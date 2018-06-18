@@ -1,0 +1,13 @@
+.devices {
+  .container-fluid {
+    background-image: url("../img/backgrounddevices.png");
+    .tablet-phone {
+      position: relative;
+      .phone {
+        position: absolute;
+        right: 20%;
+        bottom: -15%;
+      }
+    }
+  }
+}
